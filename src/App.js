@@ -142,7 +142,7 @@ export default function App() {
     }
     fetchData();
     getAllWaves();
-  },[]);
+  },[getAllWaves]);
   
   const handleInputMessageChange = e =>{
     setInputMessage(e.target.value);
